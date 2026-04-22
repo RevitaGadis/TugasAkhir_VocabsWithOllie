@@ -1,0 +1,18 @@
+{
+    "CollectiveNames": [
+        "Blue Armchair",
+        "Brown Armchair",
+        "Green Armchair",
+        "Red Armchair",
+        "Yellow Armchair"
+    ],
+    "Keywords": [
+        "Industrial",
+        "Novaphene",
+        "Armchair"
+    ],
+    "Type": "Furniture",
+    "TextureWidth": 96,
+    "TextureHeight": 64,
+    "Variations": 2
+}

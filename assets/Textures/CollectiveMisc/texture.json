@@ -1,0 +1,23 @@
+{
+    "CollectiveNames": [
+        "Decorative Bowl",
+        "Decorative Lantern",
+        "Globe",
+        "Model Ship",
+        "Small Crystal",
+        "Futan Bear"
+    ],
+    "Keywords": [
+        "Industrial",
+        "Novaphene",
+        "Miscellaneous",
+        "Misc",
+        "Deco",
+        "Decoration",
+        "Decorations"
+    ],
+    "Type": "Furniture",
+    "TextureWidth": 16,
+    "TextureHeight": 16,
+    "Variations": 8
+}

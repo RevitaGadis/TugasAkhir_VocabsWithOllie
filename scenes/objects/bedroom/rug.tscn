@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://b6fcylqi05jj2"]
+
+[ext_resource type="Texture2D" uid="uid://ccwx5sw0283au" path="res://assets/rug_bedroom.png" id="1_tjjvv"]
+[ext_resource type="Script" uid="uid://db05dbrpjt01c" path="res://scripts/vocabs/interactable_object.gd" id="1_tv3if"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_phho7"]
+size = Vector2(96, 62)
+
+[node name="Rug" type="Area2D"]
+script = ExtResource("1_tv3if")
+revitaVocab_ID = "bedroom_09"
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_tjjvv")
+region_rect = Rect2(240.0238, 975.6091, 32.014893, 48.56195)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_phho7")

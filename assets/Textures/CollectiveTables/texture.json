@@ -1,0 +1,25 @@
+{
+    "CollectiveNames": [
+        "Oak Table",
+        "Birch Table",
+        "Mahogany Table",
+        "Walnut Table",
+        "Modern Table",
+        "Puzzle Table",
+        "Moon Table",
+        "Luau Table",
+        "Dark Table",
+        "Candy Table",
+        "Sun Table",
+        "Winter Table"
+    ],
+    "Keywords": [
+        "Industrial",
+        "Novaphene",
+        "Table"
+    ],
+    "Type": "Furniture",
+    "TextureWidth": 32,
+    "TextureHeight": 48,
+    "Variations": 8
+}

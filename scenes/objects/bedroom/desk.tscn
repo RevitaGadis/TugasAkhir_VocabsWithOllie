@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://b583pjwwr3625"]
+
+[ext_resource type="Texture2D" uid="uid://dua4hdqpr5cwo" path="res://assets/furniture.png" id="1_70jfg"]
+[ext_resource type="Script" uid="uid://db05dbrpjt01c" path="res://scripts/vocabs/interactable_object.gd" id="1_cgude"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_phho7"]
+size = Vector2(46, 48)
+
+[node name="Desk" type="Area2D"]
+script = ExtResource("1_cgude")
+revitaVocab_ID = "bedroom_06"
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_70jfg")
+region_enabled = true
+region_rect = Rect2(3.885023, 562.0929, 39.928696, 46.043945)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1, 0)
+shape = SubResource("RectangleShape2D_phho7")

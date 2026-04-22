@@ -1,0 +1,108 @@
+{
+  "rooms": [
+	{
+	  "id": "bedroom",
+	  "name": "Bedroom",
+	  "color": "#A8C8E8",
+	  "vocabs": [
+		{ "id": "bedroom_01", "word": "Bed",           "phonetic": "/bed/",               "indonesian": "Tempat tidur", "example": "I sleep in my bed.",               "image": "res://assets/images/bedroom/bed.png"         },
+		{ "id": "bedroom_02", "word": "Blanket",       "phonetic": "/ˈblæŋkɪt/",         "indonesian": "Selimut",      "example": "I use a blanket when it is cold.",  "image": "res://assets/images/bedroom/blanket.png"     },
+		{ "id": "bedroom_03", "word": "Clock",         "phonetic": "/klɑːk/",             "indonesian": "Jam",          "example": "The clock shows 7 o'clock.",        "image": "res://assets/images/bedroom/clock.png"       },
+		{ "id": "bedroom_04", "word": "Closet",        "phonetic": "/ˈklɑːzɪt/",         "indonesian": "Lemari",       "example": "My clothes are in the closet.",     "image": "res://assets/images/bedroom/closet.png"      },
+		{ "id": "bedroom_05", "word": "Curtains",      "phonetic": "/kɜːrtənz/",          "indonesian": "Tirai",        "example": "I close the curtains at night.",    "image": "res://assets/images/bedroom/curtains.png"    },
+		{ "id": "bedroom_06", "word": "Desk",          "phonetic": "/dɛsk/",              "indonesian": "Meja",         "example": "My books are on the desk.",         "image": "res://assets/images/bedroom/desk.png"        },
+		{ "id": "bedroom_07", "word": "Dressing Table","phonetic": "/drɛsɪŋ ˈteɪbəl/",   "indonesian": "Meja Rias",    "example": "She sits at the dressing table.",   "image": "res://assets/images/bedroom/dressingt.png"   },
+		{ "id": "bedroom_08", "word": "Lamp",          "phonetic": "/læmp/",              "indonesian": "Lampu",        "example": "I turn on the lamp at night.",      "image": "res://assets/images/bedroom/lamp.png"        },
+		{ "id": "bedroom_09", "word": "Rug",           "phonetic": "/rʌɡ/",               "indonesian": "Karpet",       "example": "There is a rug on the floor.",      "image": "res://assets/images/bedroom/rug.png"         },
+		{ "id": "bedroom_10", "word": "Shelf",         "phonetic": "/ʃelf/",              "indonesian": "Rak",          "example": "I put my books on the shelf.",      "image": "res://assets/images/bedroom/shelf.png"       },
+		{ "id": "bedroom_11", "word": "Window",        "phonetic": "/ˈwɪndoʊ/",           "indonesian": "Jendela",      "example": "I open the window in the morning.", "image": "res://assets/images/bedroom/window.png"      }
+	  ]
+	},
+	{
+	  "id": "bathroom",
+	  "name": "Bathroom",
+	  "color": "#A8D8EA",
+	  "vocabs": [
+		{ "id": "bathroom_01", "word": "Basket",     "phonetic": "/ˈbæskɪt/",   "indonesian": "Keranjang",  "example": "I put dirty clothes in the basket.",   "image": "res://assets/images/bathroom/basket.png"     },
+		{ "id": "bathroom_02", "word": "Bath",       "phonetic": "/bæθ/",       "indonesian": "Bak mandi",  "example": "She takes a bath in the tub.",         "image": "res://assets/images/bathroom/bath.png"       },
+		{ "id": "bathroom_03", "word": "Hairbrush",    "phonetic": "/hairbrush/",  "indonesian": "Sisir",     "example": "My hairbrush is to detangling my hair.",          "image": "res://assets/images/bathroom/hairbrush.png"    },
+		{ "id": "bathroom_04", "word": "Laundry",    "phonetic": "/ˈlɔːndri/",  "indonesian": "Cucian",     "example": "I do the laundry on Sunday.",          "image": "res://assets/images/bathroom/laundry.png"    },
+		{ "id": "bathroom_05", "word": "Mirror",     "phonetic": "/ˈmɪrər/",    "indonesian": "Cermin",     "example": "I see my face in the mirror.",         "image": "res://assets/images/bathroom/mirror.png"     },
+		{ "id": "bathroom_06", "word": "Shower",     "phonetic": "/ˈʃaʊər/",    "indonesian": "Shower",     "example": "I take a shower every day.",           "image": "res://assets/images/bathroom/shower.png"     },
+		{ "id": "bathroom_07", "word": "Sink",       "phonetic": "/sɪŋk/",      "indonesian": "Wastafel",   "example": "I wash my hands at the sink.",         "image": "res://assets/images/bathroom/sink.png"       },
+		{ "id": "bathroom_08", "word": "Soap",       "phonetic": "/soʊp/",      "indonesian": "Sabun",      "example": "I wash my hands with soap.",           "image": "res://assets/images/bathroom/soap.png"       },
+		{ "id": "bathroom_09", "word": "Toilet",     "phonetic": "/ˈtɔɪlət/",   "indonesian": "Toilet",     "example": "I flush the toilet after use.",        "image": "res://assets/images/bathroom/toilet.png"     },
+		{ "id": "bathroom_10", "word": "Toothbrush", "phonetic": "/ˈtuːθbrʌʃ/", "indonesian": "Sikat gigi", "example": "I use a toothbrush every morning.",    "image": "res://assets/images/bathroom/toothbrush.png" },
+		{ "id": "bathroom_11", "word": "Towel",      "phonetic": "/ˈtaʊəl/",    "indonesian": "Handuk",     "example": "I dry my body with a towel.",          "image": "res://assets/images/bathroom/towel.png"      }
+	  ]
+	},
+	{
+	  "id": "living_room",
+	  "name": "Living Room",
+	  "color": "#F9E4B7",
+	  "vocabs": [
+		{ "id": "living_01", "word": "Bookshelf", "phonetic": "/ˈbʊkʃɛlf/",  "indonesian": "Rak buku", "example": "Books are on the bookshelf.",                     "image": "res://assets/images/living_room/shelf.png"    },
+		{ "id": "living_02", "word": "Candles",   "phonetic": "/ˈkændlz/",   "indonesian": "Lilin",    "example": "We had to light candles when the power went out.", "image": "res://assets/images/living_room/candle.png"   },
+		{ "id": "living_03", "word": "Door",      "phonetic": "/dɔːr/",      "indonesian": "Pintu",    "example": "Please open the door.",                           "image": "res://assets/images/living_room/door.png"     },
+		{ "id": "living_04", "word": "Fan",       "phonetic": "/fæn/",       "indonesian": "Kipas",    "example": "I turn on the fan.",                              "image": "res://assets/images/living_room/fan.png"      },
+		{ "id": "living_05", "word": "Paintings", "phonetic": "/ˈpeɪntɪŋz/", "indonesian": "Lukisan",  "example": "The paintings are beautiful.",                    "image": "res://assets/images/living_room/paintings.png"},
+		{ "id": "living_06", "word": "Picture",   "phonetic": "/ˈpɪktʃər/",  "indonesian": "Gambar",   "example": "There is a picture on the wall.",                 "image": "res://assets/images/living_room/picture.png"  },
+		{ "id": "living_07", "word": "Plant",     "phonetic": "/plænt/",     "indonesian": "Tanaman",  "example": "There is a plant in the corner.",                 "image": "res://assets/images/living_room/plant.png"    },
+		{ "id": "living_08", "word": "Remote",    "phonetic": "/rɪˈmoʊt/",   "indonesian": "Remote",   "example": "I use the remote to change channel.",             "image": "res://assets/images/living_room/remote.png"   },
+		{ "id": "living_09", "word": "Sofa",      "phonetic": "/ˈsoʊfə/",    "indonesian": "Sofa",     "example": "I sit on the sofa.",                              "image": "res://assets/images/living_room/sofa.png"     },
+		{ "id": "living_10", "word": "Table",     "phonetic": "/ˈteɪbəl/",   "indonesian": "Meja",     "example": "The remote is on the table.",                     "image": "res://assets/images/living_room/table.png"    },
+		{ "id": "living_11", "word": "TV",        "phonetic": "/ˌtiːˈviː/",  "indonesian": "Televisi", "example": "I watch TV with my family.",                      "image": "res://assets/images/living_room/tv.png"       }
+	  ]
+	},
+	{
+	  "id": "kitchen",
+	  "name": "Kitchen",
+	  "color": "#C8E6C9",
+	  "vocabs": [
+		{ "id": "kitchen_01", "word": "Board",        "phonetic": "/bɔːrd/",            "indonesian": "Talenan",    "example": "I cut vegetables on the board.",     "image": "res://assets/images/kitchen/board.png"        },
+		{ "id": "kitchen_02", "word": "Dining Table", "phonetic": "/ˈdaɪnɪŋ ˈteɪbəl/", "indonesian": "Meja makan", "example": "We eat at the dining table.",         "image": "res://assets/images/kitchen/dining_table.png" },
+		{ "id": "kitchen_03", "word": "Fork",       "phonetic": "/fork/",            "indonesian": "Garpu",     "example": "I eat steak with a fork.",    "image": "res://assets/images/kitchen/fork.png"       },
+		{ "id": "kitchen_04", "word": "Fridge",       "phonetic": "/frɪdʒ/",            "indonesian": "Kulkas",     "example": "I keep my drinks in the fridge.",    "image": "res://assets/images/kitchen/fridge.png"       },
+		{ "id": "kitchen_05", "word": "Knife",        "phonetic": "/naɪf/",             "indonesian": "Pisau",      "example": "I use a knife to cut fruit.",        "image": "res://assets/images/kitchen/knife.png"        },
+		{ "id": "kitchen_06", "word": "Microwave",    "phonetic": "/ˈmaɪkrəweɪv/",     "indonesian": "Microwave",  "example": "I heat food in the microwave.",      "image": "res://assets/images/kitchen/microwave.png"    },
+		{ "id": "kitchen_07", "word": "Plate",        "phonetic": "/pleɪt/",            "indonesian": "Piring",     "example": "I put food on my plate.",            "image": "res://assets/images/kitchen/plate.png"        },
+		{ "id": "kitchen_08", "word": "Rack",         "phonetic": "/ræk/",              "indonesian": "Rak",        "example": "I put plates on the rack.",          "image": "res://assets/images/kitchen/rack.png"         },
+		{ "id": "kitchen_09", "word": "Spoon",        "phonetic": "/spuːn/",            "indonesian": "Sendok",     "example": "I eat soup with a spoon.",           "image": "res://assets/images/kitchen/spoon.png"        },
+		{ "id": "kitchen_10", "word": "Stove",        "phonetic": "/stoʊv/",            "indonesian": "Kompor",     "example": "I cook rice on the stove.",          "image": "res://assets/images/kitchen/stove.png"        }
+	  ]
+	},
+	{
+	  "id": "classroom",
+	  "name": "Classroom",
+	  "color": "#FFCCBC",
+	  "vocabs": [
+		{ "id": "class_01", "word": "Book",       "phonetic": "/bʊk/",          "indonesian": "Buku",        "example": "I read a book every day.",              "image": "res://assets/images/classroom/book.png"       },
+		{ "id": "class_02", "word": "Chalk",      "phonetic": "/tʃɔːk/",        "indonesian": "Kapur",       "example": "The teacher uses chalk to write.",      "image": "res://assets/images/classroom/chalk.png"      },
+		{ "id": "class_03", "word": "Chair",      "phonetic": "/tʃer/",         "indonesian": "Kursi",       "example": "Please sit on the chair.",              "image": "res://assets/images/classroom/chair.png"      },
+		{ "id": "class_04", "word": "Eraser",     "phonetic": "/ɪˈreɪsər/",     "indonesian": "Penghapus",   "example": "I use an eraser to fix mistakes.",      "image": "res://assets/images/classroom/eraser.png"     },
+		{ "id": "class_05", "word": "Marker",     "phonetic": "/ˈmɑːrkər/",     "indonesian": "Spidol",      "example": "I use a marker to draw.",               "image": "res://assets/images/classroom/marker.png"     },
+		{ "id": "class_06", "word": "Pen",        "phonetic": "/pen/",           "indonesian": "Pulpen",      "example": "I sign my name with a pen.",            "image": "res://assets/images/classroom/pen.png"        },
+		{ "id": "class_07", "word": "Pencil",     "phonetic": "/ˈpensəl/",       "indonesian": "Pensil",      "example": "I write with a pencil.",                "image": "res://assets/images/classroom/pencil.png"     },
+		{ "id": "class_08", "word": "Ruler",      "phonetic": "/ˈruːlər/",       "indonesian": "Penggaris",   "example": "I draw a line with a ruler.",           "image": "res://assets/images/classroom/ruler.png"      },
+		{ "id": "class_09", "word": "Scissor",    "phonetic": "/ˈsɪzər/",        "indonesian": "Gunting",     "example": "I cut paper with scissors.",            "image": "res://assets/images/classroom/scissor.png"    },
+		{ "id": "class_10", "word": "Whiteboard", "phonetic": "/ˈwaɪtbɔːrd/",   "indonesian": "Papan tulis", "example": "The teacher writes on the whiteboard.", "image": "res://assets/images/classroom/whiteboard.png" }
+	  ]
+	},
+	{
+	  "id": "computer_lab",
+	  "name": "Computer Lab",
+	  "color": "#D1C4E9",
+	  "vocabs": [
+		{ "id": "lab_01", "word": "Cable",      "phonetic": "/ˈkeɪbəl/",     "indonesian": "Kabel",     "example": "I plug in the cable.",                  "image": "res://assets/images/computer_lab/cable.png"      },
+		{ "id": "lab_02", "word": "Computer",   "phonetic": "/kəmˈpjuːtər/", "indonesian": "Komputer",  "example": "I use a computer to do homework.",      "image": "res://assets/images/computer_lab/computer.png"   },
+		{ "id": "lab_03", "word": "Headphone",  "phonetic": "/ˈhedfoʊn/",    "indonesian": "Headphone", "example": "I listen with headphones.",             "image": "res://assets/images/computer_lab/headphone.png"  },
+		{ "id": "lab_04", "word": "Keyboard",   "phonetic": "/ˈkiːbɔːrd/",   "indonesian": "Keyboard",  "example": "I type with the keyboard.",             "image": "res://assets/images/computer_lab/keyboard.png"   },
+		{ "id": "lab_05", "word": "Microphone", "phonetic": "/ˈmaɪkrəfoʊn/", "indonesian": "Mikrofon",  "example": "I speak into the microphone.",          "image": "res://assets/images/computer_lab/microphone.png" },
+		{ "id": "lab_06", "word": "Monitor",    "phonetic": "/ˈmɑːnɪtər/",   "indonesian": "Monitor",   "example": "The monitor shows the screen.",         "image": "res://assets/images/computer_lab/monitor.png"    },
+		{ "id": "lab_07", "word": "Mouse",      "phonetic": "/maʊs/",         "indonesian": "Mouse",     "example": "I click with the mouse.",               "image": "res://assets/images/computer_lab/mouse.png"      },
+		{ "id": "lab_08", "word": "Printer",    "phonetic": "/ˈprɪntər/",     "indonesian": "Printer",   "example": "I print my homework with the printer.", "image": "res://assets/images/computer_lab/printer.png"    },
+		{ "id": "lab_09", "word": "Speaker",    "phonetic": "/ˈspiːkər/",     "indonesian": "Speaker",   "example": "I hear sound from the speaker.",        "image": "res://assets/images/computer_lab/speaker.png"    }
+	  ]
+	}
+  ]
+}

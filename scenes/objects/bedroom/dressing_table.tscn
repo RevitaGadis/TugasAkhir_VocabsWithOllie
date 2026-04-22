@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://bqica8t0r76wr"]
+
+[ext_resource type="Script" uid="uid://db05dbrpjt01c" path="res://scripts/vocabs/interactable_object.gd" id="1_0woau"]
+[ext_resource type="Texture2D" uid="uid://dua4hdqpr5cwo" path="res://assets/furniture.png" id="1_2vppw"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_phho7"]
+size = Vector2(32, 48)
+
+[node name="Dressing Table" type="Area2D"]
+script = ExtResource("1_0woau")
+revitaVocab_ID = "bedroom_07"
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_2vppw")
+region_enabled = true
+region_rect = Rect2(208.08003, 559.9161, 31.939957, 48.27179)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_phho7")

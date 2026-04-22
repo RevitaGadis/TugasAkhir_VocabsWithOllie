@@ -1,0 +1,18 @@
+{
+    "CollectiveNames": [
+        "Birch Bech",
+        "Oak Bench",
+        "Walnut Bench",
+        "Mahogany Bench",
+        "Modern Bench"
+    ],
+    "Keywords": [
+        "Industrial",
+        "Novaphene",
+        "Bench"
+    ],
+    "Type": "Furniture",
+    "TextureWidth": 80,
+    "TextureHeight": 96,
+    "Variations": 2
+}

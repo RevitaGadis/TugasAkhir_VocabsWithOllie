@@ -1,0 +1,19 @@
+{
+    "CollectiveNames": [
+        "Blue Couch",
+        "Brown Couch",
+        "Green Couch",
+        "Red Couch",
+        "Yellow Couch",
+        "Dark Couch"
+    ],
+    "Keywords": [
+        "Industrial",
+        "Novaphene",
+        "Couch"
+    ],
+    "Type": "Furniture",
+    "TextureWidth": 128,
+    "TextureHeight": 96,
+    "Variations": 3
+}

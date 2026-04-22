@@ -1,0 +1,18 @@
+{
+    "CollectiveNames": [
+        "Bed",
+        "Child Bed",
+        "Tropical Bed"
+    ],
+    "Keywords": [
+        "Industrial",
+        "Novaphene",
+        "Bed",
+        "Single Bed",
+        "Child Bed"
+    ],
+    "Type": "Furniture",
+    "TextureWidth": 64,
+    "TextureHeight": 64,
+    "Variations": 2
+}

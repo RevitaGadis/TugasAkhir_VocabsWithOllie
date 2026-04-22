@@ -1,0 +1,56 @@
+[gd_scene load_steps=7 format=3 uid="uid://hdgapv6o7h2v"]
+
+[ext_resource type="Script" uid="uid://ebpalbx5uxtx" path="res://scripts/record.gd" id="1_rv76e"]
+[ext_resource type="Script" uid="uid://dxgw32ho1q4av" path="res://addons/godot_whisper/capture_stream_to_text.gd" id="2_0yc4i"]
+[ext_resource type="Script" uid="uid://baw2db0pfgl27" path="res://addons/godot_whisper/label_transcribe.gd" id="3_u7ejc"]
+
+[sub_resource type="WhisperResource" id="WhisperResource_0yc4i"]
+
+[sub_resource type="AudioStreamMicrophone" id="AudioStreamMicrophone_pjdfp"]
+
+[sub_resource type="AudioStream" id="AudioStream_0yc4i"]
+
+[node name="Node2D" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_rv76e")
+
+[node name="SpeechToText" type="SpeechToText" parent="."]
+language_model = SubResource("WhisperResource_0yc4i")
+script = ExtResource("2_0yc4i")
+
+[node name="AudioStreamRecord" type="AudioStreamPlayer2D" parent="."]
+stream = SubResource("AudioStreamMicrophone_pjdfp")
+autoplay = true
+bus = &"Record"
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer2D" parent="."]
+stream = SubResource("AudioStream_0yc4i")
+
+[node name="Record" type="Button" parent="."]
+layout_mode = 0
+offset_left = 161.0
+offset_top = 88.0
+offset_right = 416.0
+offset_bottom = 184.0
+text = "RECORD"
+
+[node name="Play" type="Button" parent="."]
+layout_mode = 0
+offset_left = 163.0
+offset_top = 208.0
+offset_right = 418.0
+offset_bottom = 304.0
+text = "PLAY"
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_left = 82.0
+offset_top = 27.0
+offset_right = 122.0
+offset_bottom = 67.0
+script = ExtResource("3_u7ejc")
+
+[connection signal="transcribed_msg" from="SpeechToText" to="RichTextLabel" method="_on_speech_to_text_transcribed_msg"]
+[connection signal="pressed" from="Record" to="." method="_on_record_pressed"]
+[connection signal="pressed" from="Play" to="." method="_on_play_pressed"]

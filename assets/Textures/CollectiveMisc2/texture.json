@@ -1,0 +1,21 @@
+{
+    "CollectiveNames": [
+        "Tub o' Flowers", 
+        "Basic Log" 
+    ],
+    "Keywords": [
+        "Industrial",
+        "Novaphene",
+        "Miscellaneous",
+        "Misc",
+        "Deco",
+        "Decoration",
+        "Decorations",
+        "Guitar",
+        "Craftable"
+    ],
+    "Type": "Craftable",
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "Variations": 11
+}

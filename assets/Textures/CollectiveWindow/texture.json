@@ -1,0 +1,18 @@
+{
+    "CollectiveNames": [
+        "Basic Window",
+        "Ornate Window",
+        "Carved Window",
+        "Metal Window",
+        "Triangle Window"
+    ],
+    "Keywords": [
+        "Industrial",
+        "Novaphene",
+        "Window"
+    ],
+    "Type": "Furniture",
+    "TextureWidth": 32,
+    "TextureHeight": 32,
+    "Variations": 1
+}

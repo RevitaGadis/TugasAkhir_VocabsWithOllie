@@ -1,0 +1,32 @@
+{
+    "CollectiveNames": [
+        "Oak Chair",
+        "Walnut Chair",
+        "Birch Chair",
+        "Mahogany Chair",
+        "Red Diner Chair",
+        "Blue Diner Chair",
+        "Country Chair",
+        "Breakfast Chair",
+        "Dark Throne",
+        "Dining Chair",
+        "Green Plush Seat",
+        "Pink Plush Seat",
+        "Winter Chair",
+        "Groovy Chair",
+        "Cute Chair",
+        "Metal Chair",
+        "King Chair",
+        "Crystal Chair"
+    ],
+    "Keywords": [
+        "Industrial",
+        "Novaphene",
+        "Chair",
+        "Chairs"
+    ],
+    "Type": "Furniture",
+    "TextureWidth": 48,
+    "TextureHeight": 64,
+    "Variations":10
+}

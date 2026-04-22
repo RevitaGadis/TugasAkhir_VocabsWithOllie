@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://b626lrqnnf0og"]
+
+[ext_resource type="Texture2D" uid="uid://du2r68k0j6r0f" path="res://assets/bed.png" id="1_xh74h"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_phho7"]
+size = Vector2(46, 62)
+
+[node name="Bed" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_xh74h")
+region_enabled = true
+region_rect = Rect2(0, 0, 48.64436, 64)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1, 0)
+shape = SubResource("RectangleShape2D_phho7")
