@@ -1,0 +1,16 @@
+{
+    "CollectiveNames": [
+        "Green Office Stool",
+        "Orange Office Stool",
+        "Green Stool",
+        "Blue Stool"
+    ],
+    "Keywords": [
+        "Industrial",
+        "Novaphene"
+    ],
+    "Type": "Furniture",
+    "TextureWidth": 48, 
+    "TextureHeight": 64,
+    "Variations": 5
+}

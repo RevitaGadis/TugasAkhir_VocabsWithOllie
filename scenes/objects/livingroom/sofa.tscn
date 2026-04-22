@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://ib0ufq01agc4"]
+
+[ext_resource type="Script" uid="uid://db05dbrpjt01c" path="res://scripts/vocabs/interactable_object.gd" id="1_57k4r"]
+[ext_resource type="Texture2D" uid="uid://du2r68k0j6r0f" path="res://assets/bed.png" id="1_ixf66"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_phho7"]
+size = Vector2(46, 62)
+
+[node name="Sofa" type="Area2D" unique_id=1058637229]
+script = ExtResource("1_57k4r")
+revitaVocab_ID = "living_09"
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2090378961]
+texture = ExtResource("1_ixf66")
+region_enabled = true
+region_rect = Rect2(0, 0, 48.64436, 64)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=773316509]
+position = Vector2(-1, 0)
+shape = SubResource("RectangleShape2D_phho7")

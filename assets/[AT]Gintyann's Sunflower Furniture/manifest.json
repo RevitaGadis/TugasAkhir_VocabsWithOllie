@@ -1,0 +1,13 @@
+{
+  "Name": "[AT]Gintyann's Sunflower Furniture",
+  "Author": "Gintyann",
+  "Version": "1.0.0",
+  "Description": ".",
+  "UniqueID": "AT.Gintyann_Sunflowerfurniture",
+  "UpdateKeys": [],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "3.3.2"
+  }
+}

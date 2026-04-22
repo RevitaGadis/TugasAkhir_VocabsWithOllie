@@ -1,0 +1,25 @@
+{
+    "CollectiveNames": [
+        "Double Bed",
+        "Birch Double Bed",
+        "Deluxe Red Double Bed",
+        "Exotic Double Bed",
+        "Fisher Double Bed",
+        "Modern Double Bed",
+        "Pirate Double Bed",
+        "Starry Double Bed",
+        "Strawberry Double Bed",
+        "Tropical Double Bed",
+        "Wild Double Bed"
+    ],
+    "Keywords": [
+        "Industrial",
+        "Novaphene",
+        "Double Bed",
+        "Bed"
+    ],
+    "Type": "Furniture",
+    "TextureWidth": 96,
+    "TextureHeight": 64,
+    "Variations": 5
+}

@@ -1,0 +1,17 @@
+{
+    "CollectiveNames": [
+        "'A Night On Eco-Hill'",
+        "'Clouds'",
+        "'Portrait Of A Mermaid'",
+        "'Spires'"
+    ],
+    "Keywords": [
+        "Industrial",
+        "Novaphene",
+        "Painting"
+    ],
+    "Type": "Furniture",
+    "TextureWidth": 32,
+    "TextureHeight": 32,
+    "Variations": 15
+}

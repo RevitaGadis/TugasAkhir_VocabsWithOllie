@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://bt03mym7l3wkp"]
+
+[ext_resource type="Script" uid="uid://db05dbrpjt01c" path="res://scripts/vocabs/interactable_object.gd" id="1_4jp4v"]
+[ext_resource type="Texture2D" uid="uid://dua4hdqpr5cwo" path="res://assets/furniture.png" id="1_d6xce"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_phho7"]
+size = Vector2(16, 48)
+
+[node name="Clock" type="Area2D"]
+script = ExtResource("1_4jp4v")
+revitaVocab_ID = "bedroom_03"
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_d6xce")
+region_enabled = true
+region_rect = Rect2(256.06635, 641.0323, 16.053528, 47.120117)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_phho7")

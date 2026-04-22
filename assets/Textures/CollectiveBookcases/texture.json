@@ -1,0 +1,17 @@
+{
+    "CollectiveNames": [
+        "Artist Bookcase",
+        "Modern Bookcase",
+        "Luxury Bookcase",
+        "Dark Bookcase"
+    ],
+    "Keywords": [
+        "Industrial",
+        "Novaphene",
+        "Bookcase"
+    ],
+    "Type": "Furniture",
+    "TextureWidth": 32,
+    "TextureHeight": 48,
+    "Variations": 4
+}

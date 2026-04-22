@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://d4l7t2ejdyoie"]
+
+[ext_resource type="Script" uid="uid://db05dbrpjt01c" path="res://scripts/vocabs/interactable_object.gd" id="1_xc0ql"]
+[ext_resource type="Texture2D" uid="uid://c54q37erxiw0g" path="res://assets/bookshelf.png" id="2_k5ah3"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_phho7"]
+size = Vector2(46, 62)
+
+[node name="Bookshelf" type="Area2D" unique_id=336619617]
+script = ExtResource("1_xc0ql")
+revitaVocab_ID = "living_01"
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=960621871]
+texture = ExtResource("2_k5ah3")
+region_rect = Rect2(0, 0, 48.64436, 64)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=671593483]
+position = Vector2(-1, 0)
+shape = SubResource("RectangleShape2D_phho7")

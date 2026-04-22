@@ -1,0 +1,23 @@
+{
+    "CollectiveNames": [
+        "Oak Tea-Table",
+        "Mahogany Tea-Table",
+        "Walnut Tea-Table",
+        "Modern Tea-Table",
+        "Birch Tea-Table"
+        // "Joja Cola Tea Table",
+        // "Junimo Tea Table",
+        // "Retro Tea Table",
+        // "Wizard Tea Table"
+    ],
+    "Keywords": [
+        "Industrial",
+        "Novaphene",
+        "Tea Table",
+        "Tea-Table"
+    ],
+    "Type": "Furniture",
+    "TextureWidth": 32,
+    "TextureHeight": 32,
+    "Variations": 3
+}

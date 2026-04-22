@@ -1,0 +1,13 @@
+{
+  "Name": "[AT] Nano's Retro Style Furniture",
+  "Author": "Nano_NotRobot",
+  "Version": "1.1.0",
+  "Description": "Retro style furnitures",
+  "UniqueID": "RetroStyle.Furniture.Nano",
+  "UpdateKeys": ["Nexus:16029@AT"],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "3.3.2"
+  }
+}

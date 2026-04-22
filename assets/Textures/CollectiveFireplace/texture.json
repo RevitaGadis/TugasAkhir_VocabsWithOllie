@@ -1,0 +1,17 @@
+{
+    "CollectiveNames": [
+        "Elegant Fireplace",
+        "Brick Fireplace",
+        "Stone Fireplace",
+        "Iridium Fireplace"
+    ],
+    "Keywords": [
+        "Industrial",
+        "Novaphene",
+        "Fireplace"
+    ],
+    "Type": "Furniture",
+    "TextureWidth": 32,
+    "TextureHeight": 80,
+    "Variations": 1
+}

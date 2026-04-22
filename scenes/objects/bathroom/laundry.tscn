@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://c7hk171i6ri0u"]
+
+[ext_resource type="Script" uid="uid://db05dbrpjt01c" path="res://scripts/vocabs/interactable_object.gd" id="1_3blg8"]
+[ext_resource type="Texture2D" uid="uid://c8nhyftgg8psy" path="res://assets/furniture_bathroom.png" id="2_3blg8"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_phho7"]
+size = Vector2(46, 62)
+
+[node name="Laundry" type="Area2D"]
+script = ExtResource("1_3blg8")
+revitaVocab_ID = "bathroom_04"
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_3blg8")
+region_enabled = true
+region_rect = Rect2(-0.3497944, 196.50662, 16.499466, 26.904526)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1, 0)
+shape = SubResource("RectangleShape2D_phho7")

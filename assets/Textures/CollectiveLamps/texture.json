@@ -1,0 +1,19 @@
+{
+    "CollectiveNames": [
+        "Box Lamp",
+        "Candle Lamp",
+        "Classic Lamp",
+        "Country Lamp",
+        "Modern Lamp",
+        "Ornate Lamp"
+    ],
+    "Keywords": [
+        "Industrial",
+        "Novaphene",
+        "Lamp"
+    ],
+    "Type": "Furniture",
+    "TextureWidth": 32,
+    "TextureHeight": 32,
+    "Variations": 4
+}

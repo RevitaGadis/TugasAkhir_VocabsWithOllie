@@ -1,0 +1,17 @@
+{
+    "CollectiveNames": [
+        "Birch Dresser",
+        "Oak Dresser",
+        "Walnut Dresser",
+        "Mahogany Dresser"
+    ],
+    "Keywords": [
+        "Industrial",
+        "Novaphene",
+        "Dresser"
+    ],
+    "Type": "Furniture",
+    "TextureWidth": 80,
+    "TextureHeight": 48,
+    "Variations": 4
+}

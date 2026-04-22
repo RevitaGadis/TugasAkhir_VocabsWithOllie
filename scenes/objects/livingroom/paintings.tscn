@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://cqk8xm5dgws6r"]
+
+[ext_resource type="Texture2D" uid="uid://du2r68k0j6r0f" path="res://assets/bed.png" id="1_aj0xl"]
+[ext_resource type="Script" uid="uid://db05dbrpjt01c" path="res://scripts/vocabs/interactable_object.gd" id="1_omixi"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_phho7"]
+size = Vector2(46, 62)
+
+[node name="Paintings" type="Area2D" unique_id=1021172919]
+script = ExtResource("1_omixi")
+revitaVocab_ID = "living_05"
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1744556282]
+texture = ExtResource("1_aj0xl")
+region_enabled = true
+region_rect = Rect2(0, 0, 48.64436, 64)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1768269739]
+position = Vector2(-1, 0)
+shape = SubResource("RectangleShape2D_phho7")
