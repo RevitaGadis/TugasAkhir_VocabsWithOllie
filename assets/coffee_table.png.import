@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c5jbgjxyvmbfd"
-path="res://.godot/imported/texture_5.png-8855c66761e969a864cb0719d160b462.ctex"
+uid="uid://gg7cak6n4yll"
+path="res://.godot/imported/coffee_table.png-3e734a94a5d40d2506de44106042929c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Textures/TopiaryTree/texture_5.png"
-dest_files=["res://.godot/imported/texture_5.png-8855c66761e969a864cb0719d160b462.ctex"]
+source_file="res://assets/coffee_table.png"
+dest_files=["res://.godot/imported/coffee_table.png-3e734a94a5d40d2506de44106042929c.ctex"]
 
 [params]
 

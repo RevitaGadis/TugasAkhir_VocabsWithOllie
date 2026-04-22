@@ -1,20 +1,19 @@
 [gd_scene format=3 uid="uid://cwtlnuinlynnt"]
 
 [ext_resource type="Script" uid="uid://db05dbrpjt01c" path="res://scripts/vocabs/interactable_object.gd" id="1_cnvha"]
-[ext_resource type="Texture2D" uid="uid://du2r68k0j6r0f" path="res://assets/bed.png" id="1_ur2xj"]
+[ext_resource type="Texture2D" uid="uid://cec5nqvo47psv" path="res://assets/picture.png" id="2_cnvha"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_phho7"]
-size = Vector2(46, 62)
+size = Vector2(15, 22)
 
 [node name="Picture" type="Area2D" unique_id=935129166]
 script = ExtResource("1_cnvha")
 revitaVocab_ID = "living_06"
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1138079407]
-texture = ExtResource("1_ur2xj")
-region_enabled = true
+texture = ExtResource("2_cnvha")
 region_rect = Rect2(0, 0, 48.64436, 64)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=440613072]
-position = Vector2(-1, 0)
+position = Vector2(0.5, 1)
 shape = SubResource("RectangleShape2D_phho7")

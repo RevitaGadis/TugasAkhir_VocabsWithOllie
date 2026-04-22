@@ -1,20 +1,20 @@
 [gd_scene format=3 uid="uid://b5gqk6n4t17lg"]
 
-[ext_resource type="Texture2D" uid="uid://du2r68k0j6r0f" path="res://assets/bed.png" id="1_23bdq"]
 [ext_resource type="Script" uid="uid://db05dbrpjt01c" path="res://scripts/vocabs/interactable_object.gd" id="1_gidid"]
+[ext_resource type="Texture2D" uid="uid://c8nhyftgg8psy" path="res://assets/furniture_bathroom.png" id="2_gidid"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_phho7"]
-size = Vector2(46, 62)
+size = Vector2(12, 13)
 
 [node name="Toothbrush" type="Area2D" unique_id=973219894]
 script = ExtResource("1_gidid")
 revitaVocab_ID = "bathroom_09"
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1100639464]
-texture = ExtResource("1_23bdq")
+texture = ExtResource("2_gidid")
 region_enabled = true
-region_rect = Rect2(0, 0, 48.64436, 64)
+region_rect = Rect2(275.8899, 383.75604, 11.0807495, 14.323883)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=380574324]
-position = Vector2(-1, 0)
+position = Vector2(0, -0.5)
 shape = SubResource("RectangleShape2D_phho7")

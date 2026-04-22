@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://rbmej6b7dn0r"
-path="res://.godot/imported/texture_1.png-03144a1c2f0bb98ad1cf2ec463dd34fe.ctex"
+uid="uid://ba7fbw2yyfo66"
+path="res://.godot/imported/paintings.png-16a389800ba25bee30a2c0bc25367972.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Textures/TheZuzuCityExpress/texture_1.png"
-dest_files=["res://.godot/imported/texture_1.png-03144a1c2f0bb98ad1cf2ec463dd34fe.ctex"]
+source_file="res://assets/paintings.png"
+dest_files=["res://.godot/imported/paintings.png-16a389800ba25bee30a2c0bc25367972.ctex"]
 
 [params]
 

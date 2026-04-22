@@ -4,7 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://dvbyvde7vnydt" path="res://assets/furniture_bathroom2.png" id="2_0p53m"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_phho7"]
-size = Vector2(46, 62)
+size = Vector2(14, 21)
 
 [node name="Towel" type="Area2D" unique_id=46251919]
 script = ExtResource("1_0p53m")
@@ -16,5 +16,5 @@ region_enabled = true
 region_rect = Rect2(160.83691, 262.7974, 14.4184265, 20.661499)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1835583517]
-position = Vector2(-1, 0)
+position = Vector2(0, -0.5)
 shape = SubResource("RectangleShape2D_phho7")

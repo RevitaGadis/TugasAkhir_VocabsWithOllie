@@ -1,17 +1,16 @@
-[gd_scene load_steps=3 format=3 uid="uid://2h3wvyh26rt6"]
+[gd_scene format=3 uid="uid://2h3wvyh26rt6"]
 
 [ext_resource type="Texture2D" uid="uid://dvbyvde7vnydt" path="res://assets/furniture_bathroom2.png" id="1_gtyc0"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_phho7"]
-size = Vector2(46, 62)
+size = Vector2(46, 30)
 
-[node name="Sink" type="Area2D"]
+[node name="Sink" type="Area2D" unique_id=1898416131]
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=157646484]
 texture = ExtResource("1_gtyc0")
 region_enabled = true
 region_rect = Rect2(0.54354477, 48.527275, 46.376995, 30.472069)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-1, 0)
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1833982460]
 shape = SubResource("RectangleShape2D_phho7")
